@@ -3,6 +3,7 @@
 
 ASCII_ART_FILE="picomi.txt"
 
+bun ./index.ts
 if [ -f "$ASCII_ART_FILE" ]; then
     cat "$ASCII_ART_FILE" >> "$1"
     rm "$ASCII_ART_FILE"

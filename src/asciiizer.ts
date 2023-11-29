@@ -35,7 +35,7 @@ const imageToAscii = async (path: string): Promise<string> => {
       asciiImage += "\n";
     }
 
-    return asciiImage;
+    return "\n" + asciiImage;
   } catch (err) {
     return "";
   }
