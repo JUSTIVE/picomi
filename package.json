@@ -1,0 +1,22 @@
+{
+  "name": "picommit",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "husky": "^8.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@mobily/ts-belt": "next",
+    "@types/node-webcam": "^0.8.3",
+    "jimp": "^0.22.10",
+    "node-webcam": "^0.8.2",
+    "ts-pattern": "^5.0.5"
+  }
+}
