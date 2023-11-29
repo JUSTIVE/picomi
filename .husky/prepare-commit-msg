@@ -1,3 +1,9 @@
 #!/usr/bin/env sh
 
-bun ./index.ts
+
+ASCII_ART_FILE=".picomi/temp.txt"
+
+if [ -f "$ASCII_ART_FILE" ]; then
+    cat "$ASCII_ART_FILE" >> "$1"
+    rm "$ASCII_ART_FILE"
+fi
