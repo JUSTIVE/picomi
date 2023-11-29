@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 
-ASCII_ART_FILE=".picomi/temp.txt"
+ASCII_ART_FILE="picomi.txt"
 
 if [ -f "$ASCII_ART_FILE" ]; then
     cat "$ASCII_ART_FILE" >> "$1"

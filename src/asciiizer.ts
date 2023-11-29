@@ -41,7 +41,7 @@ const imageToAscii = async (path: string): Promise<string> => {
   }
 };
 
-const ASCII_FILE = "./.picomi/picomi.txt";
+const ASCII_FILE = "picomi.txt";
 const writeAsciiToFile = async (ascii: string) => {
   await fs.writeFileSync(ASCII_FILE, ascii);
 };
