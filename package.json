@@ -13,7 +13,6 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@mobily/ts-belt": "next",
     "@types/node-webcam": "^0.8.3",
     "jimp": "^0.22.10",
     "node-webcam": "^0.8.2",
